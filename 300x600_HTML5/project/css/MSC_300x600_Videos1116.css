@@ -1,0 +1,128 @@
+.content {
+	width: 300px;
+	height: 600px;
+}
+
+.item_0, .item_1, .item_2 {
+	left: 0px;
+}
+.text_0, .text_1, .text_2, .text_3 {
+	color: #FFF;
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.text_0 {
+	top: 467px;
+    left: 5px;
+    width: 300px;
+    font-size: 24px;
+    line-height: 18.5pt;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+}
+.text_1 {
+	top: 514px;
+    left: 41px;
+    font-size: 12px;
+    text-transform: none;
+    line-height: 12.5pt;
+    letter-spacing: 1.0px;
+}
+.text_2 {
+	top: 537px;
+    left: 81px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13.5pt;
+    letter-spacing: 0.3px;
+}
+.rect_0 {
+	top: 453px;
+	left: 0px;
+}
+.lockup_0 {
+	top: 10px;
+    left: 74px;
+}
+.Macys_svg.white #shell path:nth-child(2) {
+	stroke: #fff;
+	stroke-width: .7;
+	stroke-miterlimit: 10;
+}
+.Macys_svg.black #shell path:nth-child(2) {
+	stroke: #000;
+	stroke-width: .7;
+	stroke-miterlimit: 10;
+}
+.bottom {
+	position: absolute;
+}
+.cta {
+	top: 563px;
+    left: 181px;
+	opacity: 1;
+	position: absolute;
+	display: inline-block;
+}
+.cta .cta_shell {
+	width: 92px;
+	height: 20px;
+	color: #fff;
+	background-color: rgba(0, 0, 0,  0.4);
+	padding: 3px 2px 0px 2px;
+	letter-spacing: 2px;
+}
+.cta .cta_shell p {
+	font-size: 8pt;
+	line-height: 19px;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	letter-spacing: .2pt;
+	color: #fff;
+}
+.cta .disclaimer {
+	color: #fff;
+	line-height: 9px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 7px;
+	font-weight: 300;
+	letter-spacing: 0px;
+	text-align: center;
+}
+.bottom .whitebar {
+	position: absolute;
+}
+.content:hover .cta .cta_shell {
+	-webkit-animation: out 0.3s forwards;
+	-moz-animation: out 0.3s forwards;
+	animation: out 0.3s forwards;
+	font-weight: bold;
+}
+ @-webkit-keyframes out {
+50% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+51% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+100% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+}
+ @keyframes out {
+50% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+51% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+100% {
+ background-color: rgba(0, 0, 0,  0.6);
+}
+}
